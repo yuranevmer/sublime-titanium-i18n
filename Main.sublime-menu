@@ -1,0 +1,115 @@
+[
+    {
+        "caption": "Preferences",
+        "id": "preferences",
+        "mnemonic": "n",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "mnemonic": "P",
+                "children":
+                [
+                    {
+                        "caption": "Titanium_i18n",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings – Default",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/TitaniumI18n/TitaniumI18n.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/TitaniumI18n.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "-"
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/TitaniumI18n/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/TitaniumI18n/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/TitaniumI18n/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "titanium",
+        "caption": "Titanium",
+        "children":
+        [
+            {
+                "caption": "i18n",
+                "children": [
+                    {
+                        "caption": "Transform text",
+                        "command": "titanium_i18n"
+                    },
+                    {
+                        "caption": "Open User Settings",
+                        "command": "open_file", "args":
+                        {
+                            "file": "${packages}/User/TitaniumI18n.sublime-settings"
+                        }
+                    },
+                    {
+                        "caption": "-"
+                    }
+                ]
+            }
+        ]
+    }
+]

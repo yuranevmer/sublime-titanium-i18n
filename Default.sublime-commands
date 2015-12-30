@@ -1,0 +1,4 @@
+[
+	{ "command": "titanium_i18n", "caption": "Selection and internationalisation strings" },
+	{ "command": "titanium_i18n_replace", "caption": "Smart replacing with autowrite to strings.xml" }
+]

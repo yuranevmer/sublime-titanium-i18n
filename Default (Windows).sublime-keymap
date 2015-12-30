@@ -1,0 +1,3 @@
+[
+	{ "keys": ["ctrl+alt+shift+a"], "command": "titanium_i18n", "args": {} }
+]
