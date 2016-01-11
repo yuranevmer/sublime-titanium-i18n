@@ -1,7 +1,7 @@
 # sublime-titanium-i18n
 Sublime Text 3 plugin for helping internalization process Titanium Mobile apps.
 
-<img src="https://raw.github.com/yuranevmer/sublime-titanium-i18n/master/demo.gif" width="500"/>
+<img src="https://raw.github.com/yuranevmer/sublime-titanium-i18n/master/demo.gif" width="1000"/>
 <!--
 ## Features :
  - Auto seearch
