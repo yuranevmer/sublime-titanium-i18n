@@ -25,7 +25,16 @@ For all Sublime Text 2/3 users we recommend install via [Package Control][1].
 
 ## Usage :
 
-<kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> is the default keymap. 
+<kbd>cmd</kbd>+<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>a</kbd> is the default keymap. 
+
+- If no text is selected, plugin tries to find and select text starting from the cursor position.
+- If there is selected text, plugin checks for entries in the resource file `string.xml`. If record for this text exists, then text will be automatically replaced according to patterns:
+  + `text="Some text"` -> `textid="some_text_id"`
+  + `title="Some text"` -> `titleid="some_text_id"`
+  + `"Some text"` -> `L('some_text_id')`
+  + `'Some text'` -> `L('some_text_id')`
+- If there is no record for selected text, you will be prompted to enter `text_id`. Then text will be replaced according to patterns. Resource string will be generated and added to the clipboard, also autowrited to `string.xml` right before mark `<!-- titanium_i18n: autowrite -->`
+
 
 
 [home]: https://github.com/revolunet/sublimetext-markdown-preview
